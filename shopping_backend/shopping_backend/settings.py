@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'blog_client',
     'shop_admin',
     'shop_client',
+    'rest_framework',,
 
 ]
 
