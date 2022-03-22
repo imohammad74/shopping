@@ -1,3 +1,6 @@
-from django.db import models
+from django.urls import path, include
 
-# Create your models here.
+print('vvvvvvvvvv')
+urlpatterns = [
+    path('blog_admin/', include('blog_admin.urls')),
+]
