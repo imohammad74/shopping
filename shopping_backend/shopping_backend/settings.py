@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'shop_client',
     'rest_framework',
     'corsheaders',
+    'user_profile',
 
 ]
 
